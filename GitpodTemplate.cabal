@@ -20,7 +20,8 @@ source-repository head
   location:            https://github.com/gitpod/GitpodTemplate.git
 
 common common-options
-  build-depends:       base ^>= 4.13.0.0
+  build-depends:       base ^>= 4.13.0.0,
+                       fudgets >=0.18.3
   
   ghc-options:         -Wall
                        -Wcompat
